@@ -1,2 +1,27 @@
+.hero {
+    background-image: url(./images/back.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
+    width: auto;
+    height: 55vh;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    }
 
-
+    .hero-cta {
+        width: 100%;
+        text-align: right;
+        margin: 6.5%;
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        line-height: 1.2;
+        }
