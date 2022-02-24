@@ -1,6 +1,6 @@
 .hero {
     background-image: url(./images/back.jpg);
-    background-size: cover;
+  /*  background-size: cover;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -8,13 +8,14 @@
     background-attachment: fixed;
     background-position: 80%;
     width: auto;
-    height: 55vh;
+    
     width: 100%;
     height: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    flex-flow: wrap;
+    flex-flow: wrap;*/
+    height: 55vh;
     }
 
     .hero-cta {
