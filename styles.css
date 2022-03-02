@@ -1,5 +1,5 @@
 .pic {
-    background-image: url(./images/back2.jpg);
+    background-image: url(./images/back.jpg);
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -11,6 +11,12 @@
     width: 100%;
     flex-direction: row;
     flex-flow: wrap;
+    background-repeat: no-repeat;
+    }
+
+    section h1, p {
+            font-size: 28px;
+            color: whitesmoke;
     }
 
     .hero-cta {
@@ -20,4 +26,9 @@
         color: rgb(255, 255, 255);
         font-size: 18px;
         line-height: 1.2;
+        }
+
+        img {
+          display: flex;
+          align-items: flex-start;
         }
