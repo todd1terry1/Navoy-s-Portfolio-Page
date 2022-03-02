@@ -7,7 +7,7 @@
     align-items: flex-start;
     background-attachment: fixed;
     background-position: 80%;
-    height: 55vh;
+    height: 45vh;
     width: 100%;
     flex-direction: row;
     flex-flow: wrap;
@@ -16,7 +16,7 @@
 
     section h1, p {
             font-size: 28px;
-            color: whitesmoke;
+            color: rgb(0, 0, 0);
     }
 
     .hero-cta {
@@ -31,4 +31,5 @@
         img {
           display: flex;
           align-items: flex-start;
+          justify-content: flex-start;
         }
