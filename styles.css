@@ -1,22 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .pic {
-    background-image: url(./images/back.jpg);
-    background-size: cover;
+    background-image: url(./images/navoy.jpg);
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     align-items: flex-start;
-    background-attachment: fixed;
-    background-position: 80%;
-    height: 55vh;
-    width: 100%;
-    flex-direction: row;
-    flex-flow: wrap;
+    background-position: 50%;
+    height: 35vh;
+    width: 30%;
     background-repeat: no-repeat;
+    background-size: cover;
     }
 
     section h1, p {
             font-size: 28px;
-            color: whitesmoke;
+            color: rgb(0, 0, 0);
     }
 
     .hero-cta {
@@ -31,4 +34,14 @@
         img {
           display: flex;
           align-items: flex-start;
+          justify-content: flex-start;
+        }
+
+        .background {
+          background-image: url(./images/back2.jpg);
+          color: aliceblue;
+          width: 100%;
+          height: 20vh;
+          background-repeat: no-repeat;
+          background-size: cover;
         }
