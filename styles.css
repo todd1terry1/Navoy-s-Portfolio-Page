@@ -6,8 +6,8 @@
 
 .pic {
     background-image: url(./images/navoy.jpg);
-    display: flex;
     justify-content: center;
+    display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
     background-position: 50%;
@@ -20,14 +20,16 @@
 
     .name {
       display: flex;
-      flex-wrap: wrap;
-      flex-direction: column;
+      flex-wrap: nowrap;
+      flex-direction: row;
+      width: 50%;
       font-size: 28px;
       color: rgb(0, 0, 0);
       position: absolute;
       top: 8px;
       justify-content: center;
       right: 16px;
+      top: auto;
       font-size: 4rem;
     }
 
@@ -56,3 +58,13 @@
           font-size: 2rem;
           justify-content: center;
         }
+
+        
+.container1 {
+  width: 100%;
+  height: auto;
+  color: blanchedalmond;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
