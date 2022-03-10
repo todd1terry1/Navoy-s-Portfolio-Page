@@ -4,13 +4,9 @@
   padding: 0;
 }
 
-/*.pic {
-  
-    }*/
-
     .pic {
-      display: flex;
-      flex-wrap: nowrap;
+      flex: 1;
+      flex-wrap: wrap;
       flex-direction: row;
       width: 50%;
       font-size: 28px;
@@ -22,6 +18,22 @@
       top: auto;
       font-size: 4rem;
       display: inline-block;
+    }
+
+    .container1 {
+      display: flex;
+      color: blanchedalmond;
+      background-image: url(./images/navoy.jpg);
+      justify-content: center;
+      align-items: flex-start;
+      background-position: 50%;
+      height: 35vh;
+      width: 40%;
+      margin: 0;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      flex-direction: column;
     }
 
     .hero-cta {
@@ -50,25 +62,10 @@
           justify-content: center;
         }
 
-        
-.container1 {
-  display: flex;
-  width: 100%;
-  height: auto;
-  color: blanchedalmond;
-  flex-direction: row;
-  justify-content: space-around;
-  flex-flow: wrap;
-  background-image: url(./images/navoy.jpg);
-  justify-content: center;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  background-position: 50%;
-  height: 35vh;
-  width: 40%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  float: left;
+.bio {
+  display: block;
+}
+img {
+  height: 100px;
+  vertical-align: middle;
 }
