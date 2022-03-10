@@ -7,8 +7,21 @@
 img {
   height: 300px;
   vertical-align: middle;
+} 
+
+.backelm {
+  background-image:url(./images/back.jpg) ;
+  height: 43vh;
 }
 
 .pelm{
-  font-size: 30px;
+  font-size: 60px;
+  padding: 0, 0, 0, 60px;
+  color: aliceblue;
+}
+
+h1 {
+  background-color: black;
+  color: aliceblue;
+  height: 60px;
 }
