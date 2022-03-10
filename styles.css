@@ -5,20 +5,10 @@
 }
 
 .pic {
-    background-image: url(./images/navoy.jpg);
-    justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    background-position: 50%;
-    height: 35vh;
-    width: 40%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+  
     }
 
-    .name {
+     section p {
       display: flex;
       flex-wrap: nowrap;
       flex-direction: row;
@@ -61,10 +51,23 @@
 
         
 .container1 {
+  display: flex;
   width: 100%;
   height: auto;
   color: blanchedalmond;
   flex-direction: row;
   justify-content: space-around;
   flex-flow: wrap;
+  background-image: url(./images/navoy.jpg);
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  background-position: 50%;
+  height: 35vh;
+  width: 40%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  float: left;
 }
