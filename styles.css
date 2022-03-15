@@ -25,3 +25,7 @@ h1 {
   color: aliceblue;
   height: 60px;
 }
+
+.card-body {
+  width: 100%;
+}
