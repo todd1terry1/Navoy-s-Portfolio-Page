@@ -29,3 +29,7 @@ h1 {
 .card-body {
   width: 100%;
 }
+ 
+.inline {
+  display: inline-flex;
+}
